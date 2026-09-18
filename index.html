@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curriculum Vitae of Morsheda Tabassum">
+  <title>Morsheda Tabassum — CV</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <div class="toolbar" aria-label="Page actions">
+    <button type="button" class="btn btn--ghost" id="theme-toggle" aria-label="Toggle dark mode">
+      <span class="icon" aria-hidden="true">◐</span> Theme
+    </button>
+    <button type="button" class="btn" id="print-btn">
+      <span class="icon" aria-hidden="true">⤓</span> Download PDF
+    </button>
+  </div>
+
+  <main class="cv">
+
+    <!-- ========== Sidebar ========== -->
+    <aside class="cv__sidebar">
+      <figure class="profile">
+        <img class="profile__photo" src="assets/images/profile.jpg" alt="Photo of Morsheda Tabassum"
+             width="460" height="600" data-fallback="MT">
+        <figcaption>
+          <h1 class="profile__name">Morsheda <span>Tabassum</span></h1>
+          <p class="profile__tagline">Science Student · Chattogram</p>
+        </figcaption>
+      </figure>
+
+      <section class="side-section">
+        <h2 class="side-title">Contact</h2>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-list__label">Phone</span>
+            <a href="tel:+8801991948129">01991948129</a>
+          </li>
+          <li>
+            <span class="contact-list__label">Email</span>
+            <a href="mailto:morshedatabassum689@email.com">morshedatabassum689@email.com</a>
+          </li>
+          <li>
+            <span class="contact-list__label">Present Address</span>
+            Bakolia, Chattogram
+          </li>
+          <li>
+            <span class="contact-list__label">Permanent Address</span>
+            Mashila, Khoksha, Kushtia
+          </li>
+        </ul>
+      </section>
+
+      <section class="side-section">
+        <h2 class="side-title">Skills</h2>
+        <ul class="skills">
+          <li class="skill">Basic Computer Knowledge</li>
+          <li class="skill">MS Word, Excel, PowerPoint</li>
+          <li class="skill">HTML &amp; CSS (Basic)</li>
+          <li class="skill">Communication Skills</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ========== Main content ========== -->
+    <div class="cv__content">
+
+      <section class="section">
+        <h2 class="section__title">Career Objective</h2>
+        <p>
+          To obtain a responsible and challenging position where I can apply my skills
+          and knowledge for the growth of the organization and my career.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Education</h2>
+        <div class="table-wrap">
+          <table class="edu-table">
+            <thead>
+              <tr>
+                <th scope="col">Exam</th>
+                <th scope="col">Board</th>
+                <th scope="col">Year</th>
+                <th scope="col">Group</th>
+                <th scope="col">GPA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HSC</td>
+                <td>Chattogram</td>
+                <td>2025</td>
+                <td>Science</td>
+                <td><span class="badge">3.17</span></td>
+              </tr>
+              <tr>
+                <td>SSC</td>
+                <td>Chattogram</td>
+                <td>2023</td>
+                <td>Science</td>
+                <td><span class="badge">4.50</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Personal Information</h2>
+        <dl class="info-grid">
+          <div><dt>Father’s Name</dt><dd>Kazi MD Nizam Uddin</dd></div>
+          <div><dt>Mother’s Name</dt><dd>Hasina Aktar Lipi</dd></div>
+          <div><dt>Date of Birth</dt><dd><time datetime="2007-08-31">31 August 2007</time></dd></div>
+          <div><dt>Nationality</dt><dd>Bangladeshi</dd></div>
+          <div><dt>Religion</dt><dd>Islam</dd></div>
+          <div><dt>Marital Status</dt><dd>Unmarried</dd></div>
+        </dl>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Declaration</h2>
+        <p>
+          I hereby declare that the above information is true and correct to the best of my knowledge.
+        </p>
+
+        <div class="signature">
+          <img class="signature__img" src="assets/images/signature.png" alt="Signature" width="200" height="50">
+          <div class="signature__line"></div>
+          <p class="signature__label">Signature</p>
+          <p class="signature__date">Date: <time datetime="2026-02-14">14/02/2026</time></p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+</body>
+</html>
